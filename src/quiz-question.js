@@ -6,8 +6,8 @@ export class QuizQuestion {
   /**
     * Initializes a quiz questions with the passed in properties.
     * @param {string} question
-    * @param {array} answers An array of strings, containing possible answers
-    * @param {int} correctAnswer The index in answers of the correct answer
+    * @param {string[]} answers An array of strings, containing possible answers
+    * @param {Number} correctAnswer The index in answers of the correct answer
   */
   constructor(question, answers, correctAnswer) {
     /** @private */
